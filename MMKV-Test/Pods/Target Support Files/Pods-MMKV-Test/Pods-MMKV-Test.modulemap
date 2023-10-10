@@ -1,0 +1,6 @@
+framework module Pods_MMKV_Test {
+  umbrella header "Pods-MMKV-Test-umbrella.h"
+
+  export *
+  module * { export * }
+}

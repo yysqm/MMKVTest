@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MMKV-Test' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MMKV-Test
+
+# pod 'MMKV', :commit => '66aba5848ae', :git => "#{$xq}/MMKV"      # develop_1.2.8_Fix
+# pod 'MMKVCore', :commit => '66aba5848ae', :git => "#{$xq}/MMKV"  # develop_1.2.8_Fix
+
+pod 'MMKV'
+pod 'MMKVCore'
+
+#pod 'FCFileManager', :tag =>'1.0.20',:git => "#{$xq}/FCFileManager"
+#pod 'CocoaLumberjack', :commit => 'a1cf57d8', :git => "#{$xq}/CocoaLumberjack"
+
+pod 'FCFileManager'
+pod 'CocoaLumberjack'
+
+end
